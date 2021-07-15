@@ -394,96 +394,96 @@ export default {
       dataSource: [], // 数据源
       columns: [
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "patientId", //<String>  对应属性名
-          label: "病人编号", //<String>   表头标签
-          align: "center", //对齐方式
-          width: 160, //列宽
+          hasSort: false,   //是否排序
+          isShow: true,     //是否显示
+          prop: "patientId",    //属性名
+          label: "病人编号",     //标签名
+          align: "center",      //对齐方式
+          width: 160,           //列宽
         },
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "idcard", //<String>  对应属性名
-          label: "身份证号", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: false, 
+          isShow: true, 
+          prop: "idcard", 
+          label: "身份证号", 
+          align: "center", 
           width: 160,
         },
         {
           type: "date", //字段类型
 
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "time", //<String>  对应属性名
-          label: "住院日期", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: false, 
+          isShow: true, 
+          prop: "time", 
+          label: "住院日期", 
+          align: "center", 
           width: 100,
         },
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "name", //<String>  对应属性名
-          label: "姓名", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: false, 
+          isShow: true, 
+          prop: "name", 
+          label: "姓名", 
+          align: "center", 
           width: 100,
         },
         {
-          hasSort: true, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "leaved", //<String>  对应属性名
-          label: "是否出院", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: true, 
+          isShow: true, 
+          prop: "leaved", 
+          label: "是否出院", 
+          align: "center", 
           width: 120,
         },
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "sex", //<String>  对应属性名
-          label: "性别", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: false, 
+          isShow: true, 
+          prop: "sex", 
+          label: "性别", 
+          align: "center", 
           width: 80,
         },
 
         {
-          type: "date", //字段类型
+          type: "date", 
 
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "birthday", //<String>  对应属性名
-          label: "出生日期", //<String>   表头标签
-          align: "center", //列宽
+          hasSort: false, 
+          isShow: true, 
+          prop: "birthday", 
+          label: "出生日期", 
+          align: "center", 
           width: 120,
         },
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "tel", //<String>  对应属性名
-          label: "电话", //<String>   表头标签
+          hasSort: false, 
+          isShow: true, 
+          prop: "tel", 
+          label: "电话", 
           align: "center",
-          width: 120, // 列宽
+          width: 120, 
         },
 
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "doctorName", //<String>  对应属性名
-          label: "主治医生", //<String>   表头标签
+          hasSort: false, 
+          isShow: true, 
+          prop: "doctorName", 
+          label: "主治医生", 
           align: "center",
           width: 80,
         },
         {
-          hasSort: false, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "number", //<String>  对应属性名
-          label: "病历号", //<String>   表头标签
+          hasSort: false, 
+          isShow: true, 
+          prop: "number", 
+          label: "病历号", 
           align: "center",
           width: 150,
         },
         {
-          hasSort: true, //<Boolean> 是否排序
-          isShow: true, //<Boolean> 是否展示
-          prop: "bedNo", //<String>  对应属性名
-          label: "床号", //<String>   表头标签
+          hasSort: true, 
+          isShow: true, 
+          prop: "bedNo", 
+          label: "床号", 
           align: "center",
           width: 120,
         },
